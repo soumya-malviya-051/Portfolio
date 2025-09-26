@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name | Strategic Portfolio</title>
+  <title>Soumya Malviya | Strategic Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Font Awesome (chess icons) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -82,7 +82,7 @@
   <!-- Header -->
   <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300" id="navbar">
     <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-      <a href="#" class="text-2xl font-bold text-white">Your Name</a>
+      <a href="#" class="text-2xl font-bold text-white">Soumya Malviya</a>
       <div class="hidden md:flex items-center space-x-8">
         <a href="#about" class="text-gray-300 hover:text-white transition">About</a>
         <a href="#projects" class="text-gray-300 hover:text-white transition">Projects</a>
@@ -106,9 +106,10 @@
     <div class="container mx-auto px-6 text-center">
       <div class="grid md:grid-cols-2 gap-12 items-center">
         <div class="text-left">
-          <h1 class="text-5xl md:text-7xl font-bold text-white leading-tight">Hi, this is Soumya Malviya</h1>
-          <p class="text-lg md:text-xl text-gray-300 mt-4 max-w-lg">
-            I design and implement AI-driven solutions and full-stack applications that tackle real-world problems. From powering electric vehicle adoption to generating astrophysical phenomena with diffusion models, every project is a calculated move toward smarter technology.
+          <h1 class="text-5xl md:text-7xl font-bold text-white leading-tight">Soumya Malviya</h1>
+          <p class="text-xl md:text-2xl text-[#a08b74] font-semibold mt-2 mb-4">AI Engineer & Full-Stack Developer</p>
+          <p id="hero-subtitle" class="text-lg md:text-xl text-gray-300 mt-4 max-w-lg">
+            <!-- This text is dynamically injected by JavaScript -->
           </p>
           <a href="#projects" class="mt-8 inline-block bg-[#8b735b] text-white px-8 py-3 rounded-md text-lg hover:bg-[#a08b74] transition shadow-lg">View Projects</a>
         </div>
@@ -135,10 +136,10 @@
         </div>
         <div class="grid md:grid-cols-2 gap-16 items-center max-w-6xl mx-auto">
           <div class="text-center md:text-left">
-            <img src="https://placehold.co/150x150/f0e9d2/1a1a1a?text=You" alt="Your Portrait" class="w-40 h-40 rounded-full mx-auto md:mx-0 mb-6 border-4 border-[#8b735b]">
-            <h3 class="text-3xl font-bold text-white mb-4">Hello! I'm [Your Name].</h3>
+            <img src="https://placehold.co/150x150/f0e9d2/1a1a1a?text=SM" alt="Soumya Malviya Portrait" class="w-40 h-40 rounded-full mx-auto md:mx-0 mb-6 border-4 border-[#8b735b]">
+            <h3 class="text-3xl font-bold text-white mb-4">Thinking Several Moves Ahead</h3>
             <p class="text-gray-300 leading-relaxed">
-              Building systems that balance creativity with robust engineering—always thinking several moves ahead.
+              I'm Soumya Malviya, an engineer who builds systems that balance creative strategy with robust implementation. My passion lies in architecting solutions that are not just functional but also elegant and forward-thinking, much like a well-played chess game.
             </p>
           </div>
           <div class="space-y-8">
@@ -175,46 +176,79 @@
           <h2 class="text-4xl font-bold text-white">Featured Gambits</h2>
           <p class="text-gray-400 mt-2">A collection of strategic, results-focused builds.</p>
         </div>
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Project Intern -->
           <div class="bg-[#2a2a2a] rounded-lg overflow-hidden shadow-xl transform hover:-translate-y-2 transition duration-300">
-            <img src="https://placehold.co/600x400/8b735b/f0e9d2?text=Battery+Prediction" alt="Battery Life Prediction" class="w-full h-48 object-cover">
+            <img src="https://placehold.co/600x400/8b735b/f0e9d2?text=Trading+Analysis" alt="Trading Analysis Project" class="w-full h-48 object-cover">
             <div class="p-6">
-              <h3 class="text-2xl font-bold text-white mb-2">FYEV: AI-Powered Electric Vehicle Recommender</h3>
-              <p class="text-gray-400 mb-4">Predicts optimal replacement cycles using field datasets and ML modeling.</p>
+              <h3 class="text-xl font-bold text-white mb-2">Trading Analyst Intern</h3>
+              <p class="text-sm text-gray-400 mb-2">Axxela Research & Analytics</p>
+              <p class="text-xs text-gray-500 mb-2">[May ’25 – Jul ’25]</p>
+              <p class="text-gray-400 mb-4 text-sm">
+                Analyzed EUR interest rate markets, traded derivatives, and developed a SOFR fix forecasting pipeline using XGBoost and LSTM models, achieving 95% directional accuracy.
+              </p>
               <div class="flex flex-wrap gap-2 mb-4">
                 <span class="bg-[#4a3f35] text-xs font-semibold px-2 py-1 rounded">Python</span>
                 <span class="bg-[#4a3f35] text-xs font-semibold px-2 py-1 rounded">XGBoost</span>
+                <span class="bg-[#4a3f35] text-xs font-semibold px-2 py-1 rounded">LSTM</span>
+                <span class="bg-[#4a3f35] text-xs font-semibold px-2 py-1 rounded">TensorFlow</span>
+              </div>
+              <a href="https://drive.google.com/file/d/1pMQ7d4oNkCO0A2Y0DLCGDG3uknjW4E01/view?usp=sharing" class="text-[#f0e9d2] hover:text-white font-semibold mr-4">Certificate →</a>
+              <a href="https://drive.google.com/file/d/19FrxkjITuvLhzxzF-_fR_jN6pbvrHbOy/view?usp=sharing" class="text-[#f0e9d2] hover:text-white font-semibold">LOR →</a>
+            </div>
+          </div>
+          <!-- Project 1 -->
+          <div class="bg-[#2a2a2a] rounded-lg overflow-hidden shadow-xl transform hover:-translate-y-2 transition duration-300">
+            <img src="https://placehold.co/600x400/8b735b/f0e9d2?text=FYEV+AI" alt="FYEV Project" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">FYEV: AI-Powered EV Recommender</h3>
+              <p class="text-xs text-gray-500 mb-2">[Aug ’25 – Present]</p>
+              <p class="text-gray-400 mb-4 text-sm">
+                Developed an AI platform to simplify EV adoption with intelligent search and education modules. Built a full-stack solution using Flask, JS, and MongoDB, integrating the Gemini API and a station locator.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
                 <span class="bg-[#4a3f35] text-xs font-semibold px-2 py-1 rounded">Flask</span>
-              </div>
-              <a href="#" class="text-[#f0e9d2] hover:text-white font-semibold">View Project →</a>
-            </div>
-          </div>
-
-          <div class="bg-[#2a2a2a] rounded-lg overflow-hidden shadow-xl transform hover:-translate-y-2 transition duration-300">
-            <img src="https://placehold.co/600x400/8b735b/f0e9d2?text=Competitive+Programming" alt="CP Template Library" class="w-full h-48 object-cover">
-            <div class="p-6">
-              <h3 class="text-2xl font-bold text-white mb-2">CP Template Library</h3>
-              <p class="text-gray-400 mb-4">Battle-tested C++ templates for graphs, DP, number theory, and performance.</p>
-              <div class="flex flex-wrap gap-2 mb-4">
-                <span class="bg-[#4a3f35] text-xs font-semibold px-2 py-1 rounded">C++</span>
-                <span class="bg-[#4a3f35] text-xs font-semibold px-2 py-1 rounded">Algorithms</span>
-                <span class="bg-[#4a3f35] text-xs font-semibold px-2 py-1 rounded">Templates</span>
-              </div>
-              <a href="#" class="text-[#f0e9d2] hover:text-white font-semibold">View Project →</a>
-            </div>
-          </div>
-
-          <div class="bg-[#2a2a2a] rounded-lg overflow-hidden shadow-xl transform hover:-translate-y-2 transition duration-300">
-            <img src="https://placehold.co/600x400/8b735b/f0e9d2?text=EV+Route+Planning" alt="EV Route Planner" class="w-full h-48 object-cover">
-            <div class="p-6">
-              <h3 class="text-2xl font-bold text-white mb-2">EV Route Planner</h3>
-              <p class="text-gray-400 mb-4">Charging-aware routing with traffic and station data for India-specific use.</p>
-              <div class="flex flex-wrap gap-2 mb-4">
                 <span class="bg-[#4a3f35] text-xs font-semibold px-2 py-1 rounded">JavaScript</span>
-                <span class="bg-[#4a3f35] text-xs font-semibold px-2 py-1 rounded">APIs</span>
-                <span class="bg-[#4a3f35] text-xs font-semibold px-2 py-1 rounded">React</span>
+                <span class="bg-[#4a3f35] text-xs font-semibold px-2 py-1 rounded">MongoDB</span>
+                <span class="bg-[#4a3f35] text-xs font-semibold px-2 py-1 rounded">Gemini API</span>
               </div>
-              <a href="#" class="text-[#f0e9d2] hover:text-white font-semibold">View Project →</a>
+              <a href="https://github.com/soumya-malviya-051/FYEV-EVT" class="text-[#f0e9d2] hover:text-white font-semibold">View Project →</a>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="bg-[#2a2a2a] rounded-lg overflow-hidden shadow-xl transform hover:-translate-y-2 transition duration-300">
+            <img src="https://placehold.co/600x400/8b735b/f0e9d2?text=Gravity+Lensing" alt="Gravitational Lensing Project" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">Gravitational Lensing Image Generation</h3>
+              <p class="text-xs text-gray-500 mb-2">[April ’25 - May ’25]</p>
+              <p class="text-gray-400 mb-4 text-sm">
+                Developed a PyTorch-based DDPM to generate realistic gravitational lensing images. Explored UNet architectures and noise schedules to improve image quality, evaluating results with FID scores.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-[#4a3f35] text-xs font-semibold px-2 py-1 rounded">PyTorch</span>
+                <span class="bg-[#4a3f35] text-xs font-semibold px-2 py-1 rounded">Diffusion Models</span>
+                <span class="bg-[#4a3f35] text-xs font-semibold px-2 py-1 rounded">UNet</span>
+                <span class="bg-[#4a3f35] text-xs font-semibold px-2 py-1 rounded">Computer Vision</span>
+              </div>
+              <a href="https://github.com/soumya-malviya-051/Lensing-Diffusion" class="text-[#f0e9d2] hover:text-white font-semibold">View Project →</a>
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="bg-[#2a2a2a] rounded-lg overflow-hidden shadow-xl transform hover:-translate-y-2 transition duration-300">
+            <img src="https://placehold.co/600x400/8b735b/f0e9d2?text=DISS" alt="Document Intelligence Search System" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">Document Intelligence Search System</h3>
+              <p class="text-xs text-gray-500 mb-2">[March ’25 – April ’25]</p>
+              <p class="text-gray-400 mb-4 text-sm">
+                Built a system to process PDFs, create vector embeddings, and enable conversational querying with hybrid search. Developed a Python/FAISS backend with an Ollama LLM and a responsive React frontend.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-[#4a3f35] text-xs font-semibold px-2 py-1 rounded">React</span>
+                <span class="bg-[#4a3f35] text-xs font-semibold px-2 py-1 rounded">Python</span>
+                <span class="bg-[#4a3f35] text-xs font-semibold px-2 py-1 rounded">FAISS</span>
+                <span class="bg-[#4a3f35] text-xs font-semibold px-2 py-1 rounded">LLM</span>
+              </div>
+              <a href="https://github.com/soumya-malviya-051/DS-project" class="text-[#f0e9d2] hover:text-white font-semibold">View Project →</a>
             </div>
           </div>
         </div>
@@ -228,7 +262,7 @@
           <h2 class="text-4xl font-bold text-white">My Arsenal</h2>
           <p class="text-gray-400 mt-2">The pieces commanded to secure results.</p>
         </div>
-        <div class="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div class="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-center">
           <div class="bg-[#2a2a2a] p-6 rounded-lg shadow-lg skill-card">
             <div class="text-6xl text-[#f0e9d2] mb-3"><i class="fas fa-chess-queen"></i></div>
             <h4 class="text-xl font-bold text-white">C++</h4>
@@ -249,41 +283,41 @@
             <h4 class="text-xl font-bold text-white">Web Dev</h4>
             <p class="text-gray-400 text-sm">Core Structure</p>
           </div>
+          <div class="bg-[#2a2a2a] p-6 rounded-lg shadow-lg skill-card">
+            <div class="text-6xl text-[#f0e9d2] mb-3"><i class="fas fa-chess-knight"></i></div>
+            <h4 class="text-xl font-bold text-white">Competitive<br>Programming</h4>
+            <p class="text-gray-400 text-sm">Tactical Precision</p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Contact -->
     <section id="contact" class="py-20 bg-[#1a1a1a] scroll-reveal">
-      <div class="container mx-auto px-6">
-        <div class="text-center mb-12">
-          <h2 class="text-4xl font-bold text-white">Make Your Move</h2>
-          <p class="text-gray-400 mt-2">Let’s connect and create something brilliant.</p>
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-white">Make Your Move</h2>
+                <p class="text-gray-400 mt-2">Let’s connect and create something brilliant.</p>
+            </div>
+            <div class="flex justify-center items-center space-x-10 md:space-x-16">
+                <a href="mailto:soumyamalviya051@gmail.com" target="_blank" class="text-gray-400 hover:text-white transform hover:scale-110 transition duration-300">
+                    <i class="fas fa-envelope text-5xl"></i>
+                </a>
+                <a href="https://github.com/soumya-malviya-051" target="_blank" class="text-gray-400 hover:text-white transform hover:scale-110 transition duration-300">
+                    <i class="fab fa-github text-5xl"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/soumya-malviya-40a76b319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="text-gray-400 hover:text-white transform hover:scale-110 transition duration-300">
+                    <i class="fab fa-linkedin text-5xl"></i>
+                </a>
+            </div>
         </div>
-        <div class="max-w-xl mx-auto">
-          <form action="#" method="POST" class="space-y-6">
-            <div>
-              <input type="text" name="name" id="name" placeholder="Your Name" class="w-full bg-[#2a2a2a] border border-[#4a3f35] rounded-md py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-[#8b735b]">
-            </div>
-            <div>
-              <input type="email" name="email" id="email" placeholder="Your Email" class="w-full bg-[#2a2a2a] border border-[#4a3f35] rounded-md py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-[#8b735b]">
-            </div>
-            <div>
-              <textarea name="message" id="message" rows="4" placeholder="Your Message" class="w-full bg-[#2a2a2a] border border-[#4a3f35] rounded-md py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-[#8b735b]"></textarea>
-            </div>
-            <div class="text-center">
-              <button type="submit" class="bg-[#8b735b] text-white px-8 py-3 rounded-md text-lg hover:bg-[#a08b74] transition shadow-lg">Send Message</button>
-            </div>
-          </form>
-        </div>
-      </div>
     </section>
   </main>
 
   <!-- Footer -->
   <footer class="bg-[#1a1a1a] py-6">
     <div class="container mx-auto px-6 text-center text-gray-500">
-      <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+      <p>&copy; 2025 Soumya Malviya. All Rights Reserved.</p>
     </div>
   </footer>
 
@@ -302,13 +336,16 @@
       const mobileMenuBtn = document.getElementById('mobile-menu-btn');
       const mobileMenu = document.getElementById('mobile-menu');
       mobileMenuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
-      document.querySelectorAll('#mobile-menu a').forEach(a => {
-        a.addEventListener('click', (e) => {
+      document.querySelectorAll('#mobile-menu a, nav a[href^="#"]').forEach(a => {
+        a.addEventListener('click', function (e) {
           e.preventDefault();
-          mobileMenu.classList.add('hidden');
-          document.querySelector(a.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+          if (mobileMenu.contains(e.target)) {
+              mobileMenu.classList.add('hidden');
+          }
+          document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
         });
       });
+
 
       // Scroll reveal
       const scrollElements = document.querySelectorAll('.scroll-reveal');
@@ -401,7 +438,7 @@
         if (!fromSq || !toSq) return;
         const icon = fromSq.querySelector('.piece');
         if (!icon) return;
-        if (toSq.firstElementChild) toSq.removeChild(toSq.firstElementChild);
+        if (toSq.querySelector('.piece')) toSq.querySelector('.piece').remove();
         toSq.appendChild(icon);
       }
 
@@ -432,13 +469,13 @@
           if (move.flags && move.flags.indexOf('e') !== -1){
             const dir = (move.color === 'w') ? 1 : -1;
             const capSq = querySq([toRC[0] + dir, toRC[1]]);
-            if (capSq && capSq.firstElementChild) capSq.removeChild(capSq.firstElementChild);
+            if (capSq && capSq.querySelector('.piece')) capSq.querySelector('.piece').remove();
             position[toRC[0] + dir][toRC[1]] = ' ';
           }
-
-          // Handle normal capture on destination
-          if (toSq.firstElementChild && toSq.firstElementChild !== pieceIcon){
-            toSq.removeChild(toSq.firstElementChild);
+          
+          // Handle normal capture
+          if (toSq.querySelector('.piece')) {
+            toSq.querySelector('.piece').remove();
           }
 
           // Move icon in DOM
@@ -449,23 +486,19 @@
             const promo = move.promotion.toLowerCase();
             const promoted = (move.color === 'w') ? promo.toUpperCase() : promo;
             position[toRC[0]][toRC[1]] = promoted;
+            pieceIcon.className = `fas ${iconMap[promoted]} piece ${move.color === 'w' ? 'white' : 'black'}`;
           } else {
             position[toRC[0]][toRC[1]] = mover;
           }
           position[fromRC[0]][fromRC[1]] = ' ';
 
           // Handle castling rook move
-          if (move.flags){
-            if (move.flags.indexOf('k') !== -1){ // king-side castle
-              moveRookForCastle(move.color, 'k');
-            } else if (move.flags.indexOf('q') !== -1){ // queen-side castle
-              moveRookForCastle(move.color, 'q');
-            }
+          if (move.flags && (move.flags.includes('k') || move.flags.includes('q'))){
+             moveRookForCastle(move.color, move.flags.includes('k') ? 'k' : 'q');
           }
         }, 550);
       }
 
-      // A rich set of longer openings (PGN mainlines)
       const openings = [
         { name: "Ruy López, Berlin", pgn: "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8" },
         { name: "Italian Game, Giuoco Piano", pgn: "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 d6 6. O-O O-O 7. Re1 a6 8. Bb3 Ba7" },
@@ -477,26 +510,48 @@
         { name: "Scotch Game Mainline", pgn: "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Be3 Qf6 6. c3 Nge7 7. Be2" },
         { name: "Vienna Game", pgn: "1. e4 e5 2. Nc3 Nf6 3. f4 d5 4. fxe5 Nxe4 5. Nf3 Be7 6. d4 O-O" },
         { name: "English Opening, Symmetrical", pgn: "1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. e3 e6 6. Nge2 Nge7 7. O-O" },
-        { name: "King's Gambit Accepted", pgn: "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. h4 g4 5. Ne5 d6 6. Nxg4 Nf6 7. Nxf6+" },
         { name: "Slav Defense", pgn: "1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. e3 Nbd7 6. Qc2 Bd6 7. Bd3" },
-        { name: "Nimzo-Indian Defense", pgn: "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 6. Nf3 c5 7. O-O" },
         { name: "Grünfeld Defense", pgn: "1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 c5 8. Be3" },
-        { name: "Pirc Defense", pgn: "1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nf3 Bg7 5. Be2 O-O 6. O-O Nbd7" },
-        { name: "Benoni Defense", pgn: "1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. Nf3 g6 7. e4" },
         { name: "Catalan Opening", pgn: "1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Be7 5. Nf3 O-O 6. O-O dxc4 7. Qc2 a6 8. a4" },
-        { name: "London System", pgn: "1. d4 d5 2. Nf3 Nf6 3. Bf4 e6 4. e3 c5 5. c3 Nc6 6. Nbd2 Bd6 7. Bg3" },
-        { name: "Réti Opening", pgn: "1. Nf3 d5 2. c4 e6 3. g3 Nf6 4. Bg2 Be7 5. O-O O-O 6. b3" }
+        { name: "London System", pgn: "1. d4 d5 2. Nf3 Nf6 3. Bf4 e6 4. e3 c5 5. c3 Nc6 6. Nbd2 Bd6 7. Bg3" }
       ];
+      
+      const openingDescriptors = {
+        "Ruy López": "Like the Ruy López, my approach is classical and strategic, building pressure methodically to create long-term advantages.",
+        "Italian Game": "Reflecting the Italian Game, I focus on rapid, intuitive development and solid positioning to open up creative possibilities.",
+        "Queen's Gambit": "My strategy mirrors the Queen's Gambit: making calculated sacrifices to gain central control and initiative.",
+        "Sicilian Defense": "Embracing the complexity of the Sicilian Defense, I thrive on creating sharp, imbalanced positions to find decisive, tactical solutions.",
+        "King's Indian": "Much like the King's Indian, I prefer a hypermodern approach, controlling the center from a distance before launching a decisive attack.",
+        "French Defense": "My work is like the French Defense—solid, resilient, and structured, creating a tough-to-crack foundation that springs into powerful counter-attacks.",
+        "Caro-Kann": "Echoing the Caro-Kann, I build exceptionally solid structures that are difficult to break down, neutralizing threats before launching my own strategic plans.",
+        "Scotch Game": "Like the Scotch Game, I believe in opening up the position early, forcing a clear and tactical battle where precise calculation leads to victory.",
+        "Vienna Game": "Channeling the Vienna Game, I employ aggressive and sometimes unconventional ideas to seize the initiative from the very first move.",
+        "English Opening": "My style reflects the English Opening—flexible and positional, aiming to outmaneuver opponents by controlling key squares and concepts.",
+        "Slav Defense": "Similar to the Slav Defense, I build an incredibly solid and reliable setup, preparing to unleash tactical potential when the time is right.",
+        "Grünfeld": "In the spirit of the Grünfeld, I challenge the center from the start, creating dynamic, tactical play where a deep understanding of structure is key.",
+        "London System": "Like the London System, I employ a universal, reliable system that is solid yet contains hidden attacking potential, adaptable to any challenge.",
+        "default": "Every project is a calculated move toward smarter technology, combining tactical execution with long-term strategic vision."
+      };
+
+      function getOpeningDescription(name) {
+        for (const key in openingDescriptors) {
+            if (name.includes(key)) {
+                return openingDescriptors[key];
+            }
+        }
+        return openingDescriptors["default"];
+      }
 
       // Random opening on each refresh
       const chosen = openings[Math.floor(Math.random() * openings.length)];
       document.getElementById('opening-name').textContent = `Featuring the ${chosen.name}`;
+      document.getElementById('hero-subtitle').textContent = getOpeningDescription(chosen.name);
 
       // Build board
       createBoard();
 
       // Parse PGN and animate
-      const game = new Chess(); // from chess.js
+      const game = new Chess();
       game.load_pgn(chosen.pgn);
       const verboseMoves = game.history({ verbose: true });
 
@@ -524,3 +579,4 @@
   </script>
 </body>
 </html>
+
